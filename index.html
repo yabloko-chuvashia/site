@@ -41,10 +41,6 @@
 			.border-bottom.border-grey {
 				border-bottom: 1px solid #6d6d6d!important;
 			}
-
-			.bg-grey {
-				background-color: #e4e6e9 !important;
-			}
 			.bg-dark {
 				background-color: #0b0c0e !important;
 			}
@@ -61,6 +57,56 @@
 			.text-grey {
 				color: #87898b;
 			}
+			.text-white {
+				color: #ffffff;
+			}
+			input[type="search"]:focus {
+				outline: none;
+				box-shadow: none;
+			}
+
+			#video-title {
+				color: rgba(255,255,255, 0.50);
+				transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+
+			}
+			#video-title:hover {
+				color: rgba(255,255,255, 0.70);
+			}
+			.social-web-link {
+				display: inline-block;
+				width: 34px;
+				height: 34px;
+				text-align: center;
+				vertical-align: top;
+				color: #fff;
+				font-size: 12px;
+				font-weight: bold;
+			}
+			.social-web-link:hover {
+				color: #fff;
+			}
+			.social-web-link.vk {
+				background-color: #507299 !important;
+			}
+			.social-web-link.fb {
+				background-color: #3b5998 !important;
+			}
+			.social-web-link.tw {
+				background-color: #3cc6ee !important;
+			}
+			.social-web-link.ok {
+				background-color: #ee8208 !important;
+			}
+			.social-web-link.yt {
+				background-color: #ff1111 !important;
+			}
+			.social-web-link.in {
+				background-color: #ffc562 !important;
+			}
+			.social-web-link.tg {
+				background-color: #2ca5e0 !important;
+			}
 		</style>
 	</head>
 	<body>
@@ -69,26 +115,61 @@
 				<div class="row justify-content-center pt-2">
 					<div class="col-8">
 						<div class="row justify-content-center border-bottom border-grey">
-							<div class="col-3 bg-info">
-
+							<div class="col-auto align-self-center">
+								<a class="bg-info p-2 m-1 rounded-circle text-decoration-none social-web-link vk" target="_blank" href="https://vk.com/yabloko_21">VK</a>
+								<a class="bg-info p-2 m-1 rounded-circle text-decoration-none social-web-link fb" target="_blank" href="https://www.facebook.com/applechuv">FB</a>
+								<a class="bg-info p-2 m-1 rounded-circle text-decoration-none social-web-link tw" href="#">TW</a>
+								<a class="bg-info p-2 m-1 rounded-circle text-decoration-none social-web-link ok" target="_blank" href="https://ok.ru/group/60766331601144">OK</a>
+								<a class="bg-info p-2 m-1 rounded-circle text-decoration-none social-web-link yt" target="_blank" href="https://www.youtube.com/channel/UCD8px3XtcIk58okMhMiOYkA">YT</a>
+								<a class="bg-info p-2 m-1 rounded-circle text-decoration-none social-web-link in" target="_blank" href="https://www.instagram.com/yabloko_21/">IN</a>
+								<a class="bg-info p-2 m-1 rounded-circle text-decoration-none social-web-link tg" target="_blank" href="https://t.me/yabloko_21">TG</a>
 							</div>
 							<div class="col align-self-end" style="height: 50px">
 								<a href="#" class="text-decoration-none">
-									<h1 class="text-white text-center" style="font-weight: bold">Яблоко - Чувашия</h1>
+									<h1 class="text-white text-center" style="font-weight: bold">
+										<img class="mb-4" src="img/yabloko_logo.png" width="30" height="30" alt=""/>
+										Яблоко - Чувашия
+									</h1>
 								</a>
 							</div>
-							<div class="col-4 align-self-center">
-								<div class="row justify-content-around">
-									<div class="col-8 align-self-center">
-										<p class="text-grey text-center my-2" style="font-weight: bold">обращение к избирателям</p>
-									</div>
-									<div class="col-2 align-self-center">
-										<p class="text-grey text-center my-2" style="font-weight: bold">вход</p>
+							<div class="col-3 align-self-center">
+								<div class="row justify-content-center">
+									<a href="#" class="my-2 text-decoration-none" data-bs-toggle="modal" data-bs-target="#youtubeModal">
+										<p id="video-title" class="text-center my-auto" style="font-weight: bold">
+											<img class="mx-1" src="img/icon_play.png" width="10" height="10" alt=""/>
+											обращение к избирателям
+										</p>
+									</a>
+									<!-- Modal -->
+									<div class="modal fade" id="youtubeModal" tabindex="-1" aria-labelledby="youtubeModalLabel" aria-hidden="true">
+										<div class="modal-dialog modal-dialog-centered modal-fullscreen">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h5 class="modal-title" id="youtubeModalLabel">Обращение к избирателям</h5>
+													<button type="button" class="btn-close mx-2" data-bs-dismiss="modal" aria-label="Close"></button>
+												</div>
+												<div class="modal-body">
+													<div class="container-fluid">
+														<div class="row justify-content-center">
+															<div class="col-9">
+																<div class="ratio ratio-16x9">
+																	<iframe  src="https://www.youtube.com/embed/wVkmPkLy7ZY" allowfullscreen></iframe>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<!--<div class="modal-footer">
+													<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+													<button type="button" class="btn btn-primary">Save changes</button>
+												</div>-->
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="row">
+						<div class="container-fluid">
 							<nav class="navbar navbar-expand-lg navbar-dark">
 								<button
 										class="navbar-toggler"
@@ -101,18 +182,27 @@
 									<i class="fas fa-bars"></i>
 								</button>
 								<div class="collapse navbar-collapse" id="navbarExample01">
-									<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-										<li class="nav-item active">
-											<a class="nav-link" aria-current="page" href="#">Home</a>
+									<ul id="main-nav" class="navbar-nav ms-auto me-auto">
+										<li class="nav-item px-3">
+											<a class="nav-link" aria-current="page" href="#">ПЕТИЦИИ</a>
 										</li>
-										<li class="nav-item">
-											<a class="nav-link" href="#">Features</a>
+										<li class="nav-item px-3">
+											<a class="nav-link" href="#">ПРОГРАММЫ</a>
 										</li>
-										<li class="nav-item">
-											<a class="nav-link" href="#">Pricing</a>
+										<li class="nav-item px-3">
+											<a class="nav-link" href="#">ГРАЖДАНЕ</a>
 										</li>
-										<li class="nav-item">
-											<a class="nav-link" href="#">About</a>
+										<li class="nav-item px-3">
+											<a class="nav-link" href="#">НОВОСТИ</a>
+										</li>
+										<li class="nav-item px-3">
+											<a class="nav-link" href="#">ПОЖЕРТВОВАТЬ</a>
+										</li>
+										<li class="nav-item px-3">
+											<a class="nav-link" href="#">О ПАРТИИ</a>
+										</li>
+										<li class="nav-item px-3">
+											<a class="nav-link" href="#">ПРИЕМНАЯ</a>
 										</li>
 									</ul>
 								</div>
@@ -124,14 +214,14 @@
 			<div class="container-fluid">
 				<div class="row justify-content-center align-items-end">
 					<div class="col-2" style="max-height: 200px">
-						<img class="rounded-circle border border-5 border-grey mx-4" src="img/foto_arkadev.jpg" style="height: 240px; width: 240px">
+						<img class="rounded-circle border border-5 border-grey mx-4" src="img/foto_arkadev.jpg" style="height: 240px; width: 240px" alt="Аркадьев Владислав Иванович">
 					</div>
 					<div class="col-4 py-2">
 						<h2 class="text-white font-weight-bold" style="font-weight: bold">Аркадьев Владислав Иванович</h2>
 						<h3 class="text-grey">Председатель регионального отделения партии «Яблоко» в Чувашской Республике</h3>
 					</div>
 					<div class="col-2 align-self-center p-3">
-						<button type="button" class="btn btn-success border-0 p-2 px-5" style="font-size: 18px">ПРИСОЕДИНИТЬСЯ</button>
+						<button id="join-button" type="button" class="btn btn-success border-0 p-2 px-5" style="font-size: 18px">ПРИСОЕДИНИТЬСЯ</button>
 					</div>
 				</div>
 			</div>
@@ -145,7 +235,11 @@
 		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 		<script type="text/javascript">
-
+			$(document).ready(function(){
+				$('#join-button').click(function(e){
+					window.open('https://join.yabloko.ru');
+				});
+			});
 		</script>
 	</body>
 </html>
