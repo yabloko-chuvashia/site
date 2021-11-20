@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.eot');
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
+    url('../fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+    url('../fonts/Gilroy-Regular.woff') format('woff'),
+    url('../fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.eot');
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+    url('../fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+    url('../fonts/Gilroy-Bold.woff') format('woff'),
+    url('../fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Gilroy', sans-serif;
+}
+.border-grey {
+    border-color: #e4e6e9;
+}
+.border-bottom.border-grey {
+    border-bottom: 1px solid #6d6d6d!important;
+}
+.bg-black {
+    background-color: #0b0c0e !important;
+}
+.btn-success {
+    background-color: #4aa147 !important;
+}
+.btn-success:focus {
+    outline: none;
+    box-shadow: none;
+}
+.btn-success:hover {
+    background-color: #32882f !important;
+}
+.text-grey {
+    color: #87898b;
+}
+.text-dark {
+    color: #282c31 !important;
+}
+.text-white {
+    color: #ffffff;
+}
+input[type="search"]:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#video-title {
+    color: rgba(255,255,255, 0.50);
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+
+}
+#video-title:hover {
+    color: rgba(255,255,255, 0.70);
+}
+.social-web-link {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    vertical-align: top;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+}
+.social-web-link:hover {
+    color: #fff;
+}
+.social-web-link.vk {
+    background-color: #507299 !important;
+}
+.social-web-link.fb {
+    background-color: #3b5998 !important;
+}
+.social-web-link.tw {
+    background-color: #3cc6ee !important;
+}
+.social-web-link.ok {
+    background-color: #ee8208 !important;
+}
+.social-web-link.yt {
+    background-color: #ff1111 !important;
+}
+.social-web-link.in {
+    background-color: #ffc562 !important;
+}
+.social-web-link.tg {
+    background-color: #2ca5e0 !important;
+}
+.social-web-link.phone {
+    background-color: #fa0a49 !important;
+}
+.social-web-link.email {
+    background-color: #dd4e42 !important;
+}
+
+#second-nav .nav-link {
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+}
