@@ -95,7 +95,7 @@
                                             <a class="nav-link" href="index.html">НОВОСТИ</a>
                                         </li>
                                         <li class="nav-item px-3">
-                                            <a class="nav-link" href="#">ПОЖЕРТВОВАТЬ</a>
+                                            <a class="nav-link" href="https://www.yabloko.ru/donate" target="_blank">ПОЖЕРТВОВАТЬ</a>
                                         </li>
                                         <li class="nav-item px-3">
                                             <a class="nav-link" href="pers.html"><nobr>О ПАРТИИ</nobr></a>
@@ -135,18 +135,15 @@
             </div>
         </div>
         <div class="row justify-content-center" style="padding-bottom: 50px">
-            <div class="col-2">
+            <div class="col-0">
 
             </div>
-            <div class="col-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://pskov.yabloko.ru/storage/responsivefiles/source/2021/photo_2021-10-27_15-11-23.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
+            <div class="col-10">
+                <div id="card-container" class="row justify-content-center">
+
                 </div>
             </div>
-            <div class="col-2">
+            <div class="col-0">
 
             </div>
         </div>
@@ -169,23 +166,63 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script type="text/javascript">
         $(document).ready(function(){
-            $.ajax({
+            $.get('resources/feeds.xml', function(data) {
+                $(data).find('item').each(function() {
+                    let title = $(this).find("title").html();
+                    let link = $(this).find("link").html();
+
+                    let cardContainer = $(document).find("#card-container");
+
+                    let card = $('<div>', {
+                        class: 'card px-0 m-3',
+                        style: 'width: 18rem;'
+                    });
+                    let cardImg = $('<img>', {
+                        class: 'card-img-top',
+                        src: 'https://pskov.yabloko.ru/storage/responsivefiles/source/2021/photo_2021-10-27_15-11-23.jpg',
+                        alt: '...'
+                    });
+                    let cardBody = $('<div>', {
+                        class: 'card-body'
+                    });
+                    let newsLink = $('<a>', {
+                        href: link,
+                        class: 'text-decoration-none text-dark',
+                        target: '_blank'
+                    });
+                    let cardText = $('<h5>', {
+                        class: 'card-text'/*,
+                        style: 'font-weight: bold;'*/
+                    });
+                    cardText.html(title);
+
+                    card.append(cardImg);
+
+                    newsLink.append(cardText);
+                    cardBody.append(newsLink);
+                    card.append(cardBody);
+
+                    cardContainer.append(card);
+                });
+            });
+
+            /*$.ajax({
                 type: "GET",
-                url: "https://www.yabloko.ru/taxonomy/term/199/feed",
+                url: "",
                 cache: false,
-                dataType: "application/rss+xml",
+                dataType: "application/xml",
                 success: function(xml) {
-                    /*$(xml).find('members').each(function(){
+                    /!*$(xml).find('members').each(function(){
                         var name = $(this).find("name").text()
                         alert(name);
-                    });*/
-                    var message = $(this).text();
-                    console.log(message);
+                    });*!/
+                    /!*var message = $(this).text();*!/
+                    console.log(xml);
                 },
                 error: function(jqXHR, exception) {
                     console.log(exception);
                 }
-            });
+            });*/
         });
     </script>
 </body>
