@@ -1,5 +1,13 @@
 [
   {
+    "nid": "45165",
+    "field_url_image": "https://www.yabloko.ru/files/users/user165/cheboksary_adm.JPG",
+    "view_node": "<a href=\"/regnews/chuvashiya/2023/08/24\" hreflang=\"ru\"></a>",
+    "title": "Чувашское «Яблоко» запустило петицию за отставку главы администрации города Чебоксары",
+    "field_subtitle": "",
+    "created": "24 августа 2023"
+  },
+  {
     "nid": "44837",
     "field_url_image": "https://www.yabloko.ru/files/users/user165/chuvash_komanda.jpg",
     "view_node": "<a href=\"/regnews/chuvashiya/2023/03/20\" hreflang=\"ru\"></a>",
@@ -70,13 +78,5 @@
     "title": "ЦАП предлагает властям Чувашии сократить расходы на роскошь",
     "field_subtitle": "Элитные автомобили и дорогая мебель закупались для экс-главы республики",
     "created": "30 января 2020"
-  },
-  {
-    "nid": "40465",
-    "field_url_image": "https://www.yabloko.ru/files/users/user101/blobid1542278517024.jpg",
-    "view_node": "<a href=\"/regnews/chuvashiya/2019/07/10\" hreflang=\"ru\"></a>",
-    "title": "Владислав Аркадьев: Врачи — это ангелы в белых халатах, только без крыльев",
-    "field_subtitle": "",
-    "created": "10 июля 2019"
   }
 ]
