@@ -1,63 +1,82 @@
 [
   {
-    "field_url_image": "https://www.yabloko.ru/files/styles/img_290_190_v2/public/externals/cb5e7c9cc284963ad774a4521ff35817.jpg?itok=6yRm3rNw",
+    "nid": "44837",
+    "field_url_image": "https://www.yabloko.ru/files/users/user165/chuvash_komanda.jpg",
+    "view_node": "<a href=\"/regnews/chuvashiya/2023/03/20\" hreflang=\"ru\"></a>",
+    "title": "Чувашское «Яблоко» открывает набор активистов в члены комиссий с правом решающего голоса",
+    "field_subtitle": "",
+    "created": "20 марта 2023"
+  },
+  {
+    "nid": "44620",
+    "field_url_image": "https://www.yabloko.ru/files/users/user3/chuvashia10122022.jpg",
+    "view_node": "<a href=\"/regnews/chuvashiya/2022/12/13\" hreflang=\"ru\"></a>",
+    "title": "В Международный день прав человека в Чувашии обсудили ситуацию с правами человека в республике",
+    "field_subtitle": "",
+    "created": "13 декабря 2022"
+  },
+  {
+    "nid": "44503",
+    "field_url_image": "https://www.yabloko.ru/files/users/user165/chuvashia_kr_stol.jpg",
+    "view_node": "<a href=\"/regnews/chuvashiya/2022/10/31\" hreflang=\"ru\"></a>",
+    "title": "«Яблоко» в Чувашии приняло участие в круглом столе, посвященном памяти жертв политических репрессий",
+    "field_subtitle": "",
+    "created": "31 октября 2022"
+  },
+  {
+    "nid": "43789",
+    "field_url_image": "https://www.yabloko.ru/files/users/user101/KOC_5251.jpg",
+    "view_node": "<a href=\"/regnews/chuvashiya/2021/12/27\" hreflang=\"ru\"></a>",
+    "title": "Владислав Аркадьев об участии в конференции Московской Хельсинкской группы",
+    "field_subtitle": "",
+    "created": "27 декабря 2021"
+  },
+  {
+    "nid": "43714",
+    "field_url_image": "https://www.yabloko.ru/files/users/user159/photo_2021-11-23_16-52-38.jpg",
+    "view_node": "<a href=\"/regnews/chuvashiya/2021/12/02\" hreflang=\"ru\"></a>",
+    "title": "Комитет Государственного Совета Чувашии не одобрил кандидатуру Кирилла Милюхина в члены ЦИК Республики",
+    "field_subtitle": "",
+    "created": "2 декабря 2021"
+  },
+  {
+    "nid": "43380",
+    "field_url_image": "https://www.yabloko.ru/files/users/user3/makarevsky-1.jpg",
+    "view_node": "<a href=\"/regnews/chuvashiya/2021/08/06\" hreflang=\"ru\"></a>",
     "title": "Основателю Чувашского «Яблока» Валерию Макаревскому – 85!",
-    "link": "https://www.yabloko.ru/regnews/chuvashiya/2021/02/17",
     "field_subtitle": "",
     "created": "6 августа 2021"
   },
   {
-    "field_url_image": "<a href=\"/regnews/chuvashiya/2021/02/17\" class=\"image\" data-style=\"background: url('/files/styles/img_290_190_v2/public/externals/7cde88092479f26a6e7def59e2602e57.png?itok=ytp0T6d5') no-repeat; background-size: cover; background-position: 50% 50%;\"></a>",
-    "title": "<a href=\"/regnews/chuvashiya/2021/02/17\" hreflang=\"ru\">Владислав Аркадьев: Россия — страна, в которой необходимо бороться за достойную жизнь</a>",
+    "nid": "42859",
+    "field_url_image": "https://www.yabloko.ru/files/users/user101/Arkadev.png",
+    "view_node": "<a href=\"/regnews/chuvashiya/2021/02/17\" hreflang=\"ru\"></a>",
+    "title": "Владислав Аркадьев: Россия — страна, в которой необходимо бороться за достойную жизнь",
     "field_subtitle": "",
     "created": "17 февраля 2021"
   },
   {
-    "field_url_image": "<a href=\"/regnews/chuvashiya/2020/03/27\" class=\"image\" data-style=\"background: url('/files/styles/img_290_190_v2/public/externals/1fa24d1004028cded2c6b3849a9b18b5.jpg?itok=_TbOW-LP') no-repeat; background-size: cover; background-position: 50% 50%;\"></a>",
-    "title": "<a href=\"/regnews/chuvashiya/2020/03/27\" hreflang=\"ru\">Владислав Аркадьев: Политика, она как воздух, её не видно, но от неё зависит жизнь каждого</a>",
+    "nid": "41642",
+    "field_url_image": "https://www.yabloko.ru/files/users/user101/maxresdefault_1.jpg",
+    "view_node": "<a href=\"/regnews/chuvashiya/2020/03/27\" hreflang=\"ru\"></a>",
+    "title": "Владислав Аркадьев: Политика, она как воздух, её не видно, но от неё зависит жизнь каждого",
     "field_subtitle": "",
     "created": "27 марта 2020"
   },
   {
-    "field_url_image": "<a href=\"/regnews/chuvashiya/2020/01/30\" class=\"image\" data-style=\"background: url('/files/styles/img_290_190_v2/public/externals/8ea4695f32938558f350b35bb25d76ab.jpg?itok=A0GK5BaI') no-repeat; background-size: cover; background-position: 50% 50%;\"></a>",
-    "title": "<a href=\"/regnews/chuvashiya/2020/01/30\" hreflang=\"ru\">ЦАП предлагает властям Чувашии сократить расходы на роскошь</a>",
+    "nid": "41364",
+    "field_url_image": "https://www.yabloko.ru/files/users/user101/f80acba53575e2c645fa1159f618eb08_ce_1080x673x0x68_cropped_960x600.jpg",
+    "view_node": "<a href=\"/regnews/chuvashiya/2020/01/30\" hreflang=\"ru\"></a>",
+    "title": "ЦАП предлагает властям Чувашии сократить расходы на роскошь",
     "field_subtitle": "Элитные автомобили и дорогая мебель закупались для экс-главы республики",
     "created": "30 января 2020"
   },
   {
-    "field_url_image": "<a href=\"/regnews/chuvashiya/2019/07/10\" class=\"image\" data-style=\"background: url('/files/styles/img_290_190_v2/public/externals/7aea0c98fa34e26ceb8396cec26929ed.jpg?itok=2yrIA0iI') no-repeat; background-size: cover; background-position: 50% 50%;\"></a>",
-    "title": "<a href=\"/regnews/chuvashiya/2019/07/10\" hreflang=\"ru\">Владислав Аркадьев: Врачи — это ангелы в белых халатах, только без крыльев</a>",
+    "nid": "40465",
+    "field_url_image": "https://www.yabloko.ru/files/users/user101/blobid1542278517024.jpg",
+    "view_node": "<a href=\"/regnews/chuvashiya/2019/07/10\" hreflang=\"ru\"></a>",
+    "title": "Владислав Аркадьев: Врачи — это ангелы в белых халатах, только без крыльев",
     "field_subtitle": "",
     "created": "10 июля 2019"
-  },
-  {
-    "field_url_image": "<a href=\"/regnews/chuvashiya/2019/07/01\" class=\"image\" data-style=\"background: url('/files/styles/img_290_190_v2/public/externals/8a75966181f6b424eb2df168201c3ff9.jpg?itok=aSV9gZOT') no-repeat; background-size: cover; background-position: 50% 50%;\"></a>",
-    "title": "<a href=\"/regnews/chuvashiya/2019/07/01\" hreflang=\"ru\">«За сохранение лесопарков в городе Чебоксары» </a>",
-    "field_subtitle": "Резолюция круглого стола Чувашского «Яблока»",
-    "created": "1 июля 2019"
-  },
-  {
-    "field_url_image": "<a href=\"/regnews/chuvashiya/2019/06/17\" class=\"image\" data-style=\"background: url('/files/styles/img_290_190_v2/public/externals/ec9aa0937a520cd4b59369eb3dcd3bdc.jpg?itok=0rPk-Q9y') no-repeat; background-size: cover; background-position: 50% 50%;\"></a>",
-    "title": "<a href=\"/regnews/chuvashiya/2019/06/17\" hreflang=\"ru\">Николай Рыбаков: «Политзаключенные – массовое явление в сегодняшней России»</a>",
-    "field_subtitle": "",
-    "created": "17 июня 2019"
-  },
-  {
-    "field_url_image": "<a href=\"/regnews/chuvashiya/2019/06/14\" class=\"image\" data-style=\"background: url('/files/styles/img_290_190_v2/public/externals/7cf10670c4ee73973010dacf924f1ecb.jpg?itok=sA32INPI') no-repeat; background-size: cover; background-position: 50% 50%;\"></a>",
-    "title": "<a href=\"/regnews/chuvashiya/2019/06/14\" hreflang=\"ru\">Николай Рыбаков выступит на митинге «За достойную медицину» и обсудит репрессии по политическим мотивам в Чебоксарах</a>",
-    "field_subtitle": "",
-    "created": "14 июня 2019"
-  },
-  {
-    "field_url_image": "<a href=\"/regnews/chuvashiya/2019/04/25\" class=\"image\" data-style=\"background: url('/files/styles/img_290_190_v2/public/externals/204ecd38ed1a626cb1aebdadc43a580b.jpg?itok=yoRi89fl') no-repeat; background-size: cover; background-position: 50% 50%;\"></a>",
-    "title": "<a href=\"/regnews/chuvashiya/2019/04/25\" hreflang=\"ru\">В Чувашском «Яблоке» прошёл круглый стол «За достойную медицину»</a>",
-    "field_subtitle": "Участники круглого стола призвали увеличить государственные расходы на систему здравоохранения",
-    "created": "25 апреля 2019"
-  },
-  {
-    "field_url_image": "<a href=\"/regnews/chuvashiya/2019/01/28\" class=\"image\" data-style=\"background: url('/files/styles/img_290_190_v2/public/externals/d1e838938c1dd9f8315b6ab2c0c9827a.jpg?itok=m8-zLCPC') no-repeat; background-size: cover; background-position: 50% 50%;\"></a>",
-    "title": "<a href=\"/regnews/chuvashiya/2019/01/28\" hreflang=\"ru\">В Чувашии предложили увековечить память жертв антибольшевистского восстания крестьян 1921 года</a>",
-    "field_subtitle": "",
-    "created": "28 января 2019"
   }
 ]
