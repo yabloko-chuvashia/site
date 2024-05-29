@@ -1,232 +1,295 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="img/yabloko2017_favicon.png" type="image/png">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Яблоко - Чувашия</title>
-</head>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="shortcut icon" href="img/yabloko2017_favicon.png" type="image/png">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<style>
+
+
+#container-fluid-2 {
+position: absolute;
+top: 1200px;
+left: 1px;
+}
+
+.div {
+margin-top: 30px;
+margin-left: 300px;
+}
+
+.titlezero {
+position: absolute;
+}
+
+.surname  {
+position: absolute;
+top: 180px;
+left: 297px;
+
+}
+
+.surname:hover  {
+text-decoration: underline;
+}
+
+.title {
+position: absolute;
+top: 230px;
+
+}
+
+.surnametwo {
+position: absolute; 
+top: 260px;
+}
+
+.titletwo {
+position: absolute;
+top: 310px;
+
+}
+
+.surnamethree {
+position: absolute; 
+top: 340px;
+}
+
+.surnamefour {
+position: absolute; 
+top: 390px;
+}
+
+.surnamefive {
+position: absolute; 
+top: 440px;
+}
+
+.titlethree {
+position: absolute; 
+top: 490px;
+}
+
+.surnamesix {
+position: absolute; 
+top: 520px;
+}
+
+.surnameseven {
+position: absolute; 
+top: 570px;
+}
+
+.surnameeight {
+position: absolute; 
+top: 630px;
+}
+
+.titlefour {
+position: absolute; 
+top: 680px;
+}
+
+.surnamenine {
+position: absolute; 
+top: 710px;
+}
+
+.surnameten {
+position: absolute; 
+top: 760px;
+}
+
+.surnameeleven {
+position: absolute; 
+top: 810px;
+}
+
+.titlefive {
+position: absolute; 
+top: 860px;
+}
+
+.surnametwelve {
+position: absolute; 
+top: 890px;
+}
+
+.titlesix {
+position: absolute; 
+top: 940px;
+}
+
+.table {
+position: absolute; 
+top: 990px;
+width: 800px;
+
+}
+
+td {
+border: 1px solid black;
+}
+</style>
+
+
+
 <body>
-    <div class="container-fluid bg-black">
-        <header class="container-fluid">
-            <div class="row justify-content-center pt-2">
-                <div class="col-lg-12 col-xl-10 col-xxl-8">
-                    <div class="row justify-content-between border-bottom border-grey">
-                        <div class="col-auto mx-auto mx-xl-0 align-self-center">
-                            <a class="p-2 m-1 rounded-circle text-decoration-none social-web-link vk" target="_blank" href="https://vk.com/yabloko_21">VK</a>
-                            <a class="p-2 m-1 rounded-circle text-decoration-none social-web-link fb" target="_blank" href="https://www.facebook.com/applechuv">FB</a>
-                            <a class="p-2 m-1 rounded-circle text-decoration-none social-web-link tw" href="#">TW</a>
-                            <a class="p-2 m-1 rounded-circle text-decoration-none social-web-link ok" target="_blank" href="https://ok.ru/group/60766331601144">OK</a>
-                            <a class="p-2 m-1 rounded-circle text-decoration-none social-web-link yt" target="_blank" href="https://www.youtube.com/channel/UCD8px3XtcIk58okMhMiOYkA">YT</a>
-                            <a class="p-2 m-1 rounded-circle text-decoration-none social-web-link in" target="_blank" href="https://www.instagram.com/yabloko_21/">IN</a>
-                            <a class="p-2 m-1 rounded-circle text-decoration-none social-web-link tg" target="_blank" href="https://t.me/yabloko_21">TG</a>
-                        </div>
-                        <div class="col-12 col-xl-auto mx-auto mx-xl-0 align-self-center" style="height: 50px">
-                            <a href="#" class="text-decoration-none">
-                                <h2 class="text-white text-center" style="font-weight: bold">
-                                    <img class="mb-4" src="img/yabloko_logo.png" width="30" height="30" alt=""/>
-                                    Яблоко - Чувашия
-                                </h2>
-                            </a>
-                        </div>
-                        <div class="col-12 col-xl-auto mx-auto mx-xl-0 align-self-center">
-                            <div class="row justify-content-center">
-                                <a href="#" class="my-2 text-decoration-none" data-bs-toggle="modal" data-bs-target="#youtubeModal">
-                                    <p id="video-title" class="text-center my-auto" style="font-weight: bold">
-                                        <img class="mx-1" src="img/icon_play.png" width="10" height="10" alt=""/>
-                                        обращение к избирателям
-                                    </p>
-                                </a>
-                                <!-- Modal -->
-                                <div class="modal fade" id="youtubeModal" tabindex="-1" aria-labelledby="youtubeModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog modal-dialog-centered modal-fullscreen">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="youtubeModalLabel">Обращение к избирателям</h5>
-                                                <button type="button" class="btn-close mx-2" data-bs-dismiss="modal" aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <div class="container-fluid">
-                                                    <div class="row justify-content-center">
-                                                        <div class="col-9">
-                                                            <div class="ratio ratio-16x9">
-                                                                <iframe  src="https://www.youtube.com/embed/wVkmPkLy7ZY" allowfullscreen></iframe>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!--<div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                                <button type="button" class="btn btn-primary">Save changes</button>
-                                            </div>-->
-                                        </div>
+
+<div class="container-fluid bg-black">
+			<header class="container-fluid">
+				<div class="row justify-content-center pt-2">
+					<div class="col-lg-12 col-xl-10 col-xxl-8">
+						<div class="row justify-content-between border-bottom border-grey">
+							<div class="col-auto mx-auto mx-xl-0 align-self-center">
+								<a class="p-2 m-1 rounded-circle text-decoration-none social-web-link vk" target="_blank" href="https://vk.com/yabloko_21">VK</a>
+								<a class="p-2 m-1 rounded-circle text-decoration-none social-web-link fb" target="_blank" href="https://www.facebook.com/applechuv">FB</a>
+								<a class="p-2 m-1 rounded-circle text-decoration-none social-web-link tw" href="#">TW</a>
+								<a class="p-2 m-1 rounded-circle text-decoration-none social-web-link ok" target="_blank" href="https://ok.ru/group/60766331601144">OK</a>
+								<a class="p-2 m-1 rounded-circle text-decoration-none social-web-link yt" target="_blank" href="https://www.youtube.com/channel/UCD8px3XtcIk58okMhMiOYkA">YT</a>
+								<a class="p-2 m-1 rounded-circle text-decoration-none social-web-link in" target="_blank" href="https://www.instagram.com/yabloko_21/">IN</a>
+								<a class="p-2 m-1 rounded-circle text-decoration-none social-web-link tg" target="_blank" href="https://t.me/yabloko_21">TG</a>
+							</div>
+							<div class="col-12 col-xl-auto mx-auto mx-xl-0 align-self-center" style="height: 50px">
+								<a href="#" class="text-decoration-none">
+									<h2 class="text-white text-center" style="font-weight: bold">
+										<img class="mb-4" src="img/yabloko_logo.png" width="30" height="30" alt=""/>
+										Яблоко - Чувашия
+									</h2>
+								</a>
+							</div>
+							<div class="col-12 col-xl-auto mx-auto mx-xl-0 align-self-center">
+								<div class="row justify-content-center">
+									<a href="#" class="my-2 text-decoration-none" data-bs-toggle="modal" data-bs-target="#youtubeModal">
+										<p id="video-title" class="text-center my-auto" style="font-weight: bold">
+											<img class="mx-1" src="img/icon_play.png" width="10" height="10" alt=""/>
+											обращение к избирателям
+										</p>
+									</a>
+									<!-- Modal -->
+									<div class="modal fade" id="youtubeModal" tabindex="-1" aria-labelledby="youtubeModalLabel" aria-hidden="true">
+										<div class="modal-dialog modal-dialog-centered modal-fullscreen">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h5 class="modal-title" id="youtubeModalLabel">Обращение к избирателям</h5>
+													<button type="button" class="btn-close mx-2" data-bs-dismiss="modal" aria-label="Close"></button>
+												</div>
+												<div class="modal-body">
+													<div class="container-fluid">
+														<div class="row justify-content-center">
+															<div class="col-9">
+																<div class="ratio ratio-16x9">
+																	<iframe  src="https://www.youtube.com/embed/wVkmPkLy7ZY" allowfullscreen></iframe>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<!--<div class="modal-footer">
+													<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+													<button type="button" class="btn btn-primary">Save changes</button>
+												</div>-->
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="container-fluid px-0">
+							<nav class="navbar navbar-dark navbar-expand-xl">
+                                <div class="container-fluid px-0">
+                                    <button class="navbar-toggler"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#navbarMain"
+                                            aria-controls="navbarMain"
+                                            aria-expanded="false"
+                                            aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="navbar-collapse collapse my-3 my-xl-0 my-xxl-0" id="navbarMain">
+                                        <ul class="navbar-nav ms-auto me-auto justify-content-center">
+                                            <li class="nav-item px-3">
+                                                <a class="nav-link" aria-current="page" href="petishion1.html">ПЕТИЦИИ</a>
+                                            </li>
+                                            <li class="nav-item px-3">
+                                                <a class="nav-link" href="#">ПРОГРАММЫ</a>
+                                            </li>
+                                            <li class="nav-item px-3">
+                                                <a class="nav-link" href="#">ГРАЖДАНЕ</a>
+                                            </li>
+                                            <li class="nav-item px-3">
+                                                <a class="nav-link" href="index.html">НОВОСТИ</a>
+                                            </li>
+                                            <li class="nav-item px-3">
+                                                <a class="nav-link" href="https://www.yabloko.ru/donate" target="_blank">ПОЖЕРТВОВАТЬ</a>
+                                            </li>
+                                            <li class="nav-item px-3">
+												<a class="nav-link" href="indexII.html"><nobr>О ПАРТИИ</nobr></a>
+                                            </li>
+                                            <li class="nav-item px-3">
+                                                <a class="nav-link" href="#">ПРИЕМНАЯ</a>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container-fluid px-0">
-                        <nav class="navbar navbar-dark navbar-expand-xl">
-                            <div class="container-fluid px-0">
-                                <button class="navbar-toggler"
-                                        type="button"
-                                        data-bs-toggle="collapse"
-                                        data-bs-target="#navbarMain"
-                                        aria-controls="navbarMain"
-                                        aria-expanded="false"
-                                        aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-                                <div class="navbar-collapse collapse my-3 my-xl-0 my-xxl-0" id="navbarMain">
-                                    <ul class="navbar-nav ms-auto me-auto justify-content-center">
-                                        <li class="nav-item px-3">
-                                            <a class="nav-link" aria-current="page" href="petishion1.html">ПЕТИЦИИ</a>
-                                        </li>
-                                        <li class="nav-item px-3">
-                                            <a class="nav-link" href="#">ПРОГРАММЫ</a>
-                                        </li>
-                                        <li class="nav-item px-3">
-                                            <a class="nav-link" href="#">ГРАЖДАНЕ</a>
-                                        </li>
-                                        <li class="nav-item px-3">
-                                            <a class="nav-link" href="index.html">НОВОСТИ</a>
-                                        </li>
-                                        <li class="nav-item px-3">
-                                            <a class="nav-link" href="https://www.yabloko.ru/donate" target="_blank">ПОЖЕРТВОВАТЬ</a>
-                                        </li>
-                                        <li class="nav-item px-3">
-                                            <a class="nav-link" href="pers.html"><nobr>О ПАРТИИ</nobr></a>
-                                        </li>
-                                        <li class="nav-item px-3">
-                                            <a class="nav-link" href="#">ПРИЕМНАЯ</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </nav>
+							</nav>
 
-                    </div>
-                </div>
-            </div>
-        </header>
-        <div class="container-fluid">
-            <div class="row justify-content-center align-items-end">
-                <div class="col-11 col-sm-7 col-md-5 col-lg-4 col-xl-3 col-xxl-2 " style="max-height: 200px">
-                </div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-4 col-xxl-4 py-2 pt-3 pt-lg-0 mt-5 mt-lg-0">
-                </div>
-                <div class="col-11 col-sm-7 col-md-5 col-lg-3 col-xl-3 col-xxl-2 p-3 mb-3 mb-xl-0 align-self-center">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row justify-content-center" style="padding-bottom: 50px">
-            <div class="col-2">
+						</div>
+					</div>
+				</div>
+			</header>
 
-            </div>
-            <div class="col-4">
-            </div>
-            <div class="col-2">
+<div class="div">
+<p class="titlezero"><big>Председатель</big></p>
+<p class="surname"><small><a class="nav-link" href="pers.html" style="color: black;"><nobr>Аркадьев Владислав Иванович</nobr></small></a></p>
+<p class="title"><big>Заместитель председателя</big></p>
+<p class="surnametwo"><small>Милюхин Кирилл Владимирович</small></p>
+<p class="titletwo"><big>Бюро Регионального совета</big></p>
+<p class="surnamethree"><small>Аркадьев Михаил Владиславович</small></p>
+<p class="surnamefour"><small>Питернов Алексей Юрьевич</small></p>
+<p class="surnamefive"><small>Стеньшин Виктор Васильевич</small></p>
+<p class="titlethree"><big>В Региональный совет кроме членов Бюро входят</big></p>
+<p class="surnamesix"><small>Стеньшин Виктор Васильевич</small></p>
+<p class="surnameseven"><small>Аркадьева Любовь Васильевна</small></p>
+<p class="surnameeight"><small>Горохов Александр Викторович</small></p>
+<p class="titlefour"><big>Контрольно-ревизионная комиссия</big></p>
+<p class="surnamenine"><small>Васильева Елена Николаевна</small></p>
+<p class="surnameten"><small>Петров Александр Геннадьевич</small></p>
+<p class="surnameeleven"><small>Семенов Геннадий Германович</small></p>
+<p class="titlefive"><big>Член федерального совета</big></p>
+<p class="surnametwelve"><small>Аркадьев Михаил Владиславович</small></p>
+<p class="titlesix"><big>Структура местных (первичных) отделений</big></p>
+<table class="table">
+<tbody>
+<tr bgcolor=Gainsboro>
+<td>МО в г. Чебоксары</td>
+<td>Милюхин Кирилл Владимирович</td>
+</tr>
+<tr>
+<td>ПО в г. Новочебоксарске</td>
+<td>Фирсов Дмитрий Николаевич</td>
+</tr>
+</tbody>
+</table>
+</div>
 
-            </div>
-        </div>
-        <div class="row justify-content-center" style="padding-bottom: 50px">
-            <div class="col-0">
 
-            </div>
-            <div class="col-10">
-                <div id="card-container" class="row justify-content-center">
 
-                </div>
-            </div>
-            <div class="col-0">
+<footer id="container-fluid-2" class="container-fluid bg-black">
+			<div class="row justify-content-center p-4">
+				<div class="col-auto">
+					<p class="text-grey m-0 text-center">@ 2021 chuvashia.yabloko.ru</p>
+					<p class="text-grey m-0 text-center">Политика персональных данных</p>
+					<h1 class="text-white m-3 text-center" style="font-weight: bold">
+						<img class="mb-4" src="img/yabloko_logo.png" width="30" height="30" alt=""/>
+						Яблоко
+					</h1>
+				</div>
+			</div>
+		</footer>
 
-            </div>
-        </div>
-    </div>
-    <footer class="container-fluid bg-black">
-        <div class="row justify-content-center p-4">
-            <div class="col-auto">
-                <p class="text-grey m-0 text-center">@ 2021 chuvashia.yabloko.ru</p>
-                <p class="text-grey m-0 text-center">Политика персональных данных</p>
-                <h1 class="text-white m-3 text-center" style="font-weight: bold">
-                    <img class="mb-4" src="img/yabloko_logo.png" width="30" height="30" alt=""/>
-                    Яблоко
-                </h1>
-            </div>
-        </div>
-    </footer>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $.get('resources/feeds.json', function(data) {
-                $(data).each(function(index, item) {
-                    console.log(item);
-
-                    let title = item.title;
-                    let link = "https://www.yabloko.ru" + $(item.view_node).attr("href");
-                    let img = item.field_url_image;
-
-                    let cardContainer = $(document).find("#card-container");
-
-                    let card = $('<div>', {
-                        class: 'card px-0 m-3',
-                        style: 'width: 18rem;'
-                    });
-                    let cardImg = $('<img>', {
-                        class: 'card-img-top',
-                        src: img,
-                        alt: '...'
-                    });
-                    let cardBody = $('<div>', {
-                        class: 'card-body'
-                    });
-                    let newsLink = $('<a>', {
-                        href: link,
-                        class: 'text-decoration-none text-dark',
-                        target: '_blank'
-                    });
-                    let cardText = $('<h5>', {
-                        class: 'card-text'/*,
-                        style: 'font-weight: bold;'*/
-                    });
-                    cardText.html(title);
-
-                    card.append(cardImg);
-
-                    newsLink.append(cardText);
-                    cardBody.append(newsLink);
-                    card.append(cardBody);
-
-                    cardContainer.append(card);
-                });
-            });
-
-            /*$.ajax({
-                type: "GET",
-                url: "",
-                cache: false,
-                dataType: "application/xml",
-                success: function(xml) {
-                    /!*$(xml).find('members').each(function(){
-                        var name = $(this).find("name").text()
-                        alert(name);
-                    });*!/
-                    /!*var message = $(this).text();*!/
-                    console.log(xml);
-                },
-                error: function(jqXHR, exception) {
-                    console.log(exception);
-                }
-            });*/
-        });
-    </script>
 </body>
-</html>
+    </html>
